@@ -1,0 +1,898 @@
+ventanas forman 1
+
+usando el sistema;
+Utilizando System.Collections.Generic;
+Utilizando System.ComponentModel;
+Utilizando System.Data;
+Utilizando Sistema.Dibujo;
+Utilizando System.Linq;
+Utilizando System.Text;
+Utilizando System.Threading.Tasks;
+Utilizando System.Windows.Forms;
+
+espacio de nombres progra16
+{
+    Clase parcial pública Form1: Forma
+    {
+        Form1 público ()
+        {
+            InitializeComponent ();
+        }
+
+        Privado vacío btncalcular_Click (objeto remitente, EventArgs e)
+        {
+            doble r = 0.0;
+            doble a = 0.0;
+            doble b = 0.0;
+
+            a = Convert.ToDouble (txtA.Text);
+            b = Convert.ToDouble (txtB.Text);
+
+            if (rbSuma.Checked == true)
+                r = a + b;
+
+            if (rbResta.Checked == true)
+                r = a - b;
+
+            if (rbmultiplicacion.Checked == true)
+                r = a * b;
+            
+            if (rbdivision.Checked == true)
+                r = a / b;
+
+            lblResultado.Text = r.ToString ();
+        }
+    }
+}
+
+windows form2
+
+usando el sistema;
+Utilizando System.Collections.Generic;
+Utilizando System.ComponentModel;
+Utilizando System.Data;
+Utilizando Sistema.Dibujo;
+Utilizando System.Linq;
+Utilizando System.Text;
+Utilizando System.Threading.Tasks;
+Utilizando System.Windows.Forms;
+
+espacio de nombres progra16
+{
+    Clase parcial pública Form2: Forma
+    {
+        Form2 pública ()
+        {
+            InitializeComponent ();
+        }
+
+        privado void textboxmensaje_TextChanged (objeto remitente, EventArgs e)
+        {
+           
+        }
+
+        vo2 privado Form2_Load (remitente del objeto, EventArgs e)
+        {
+            lbmensaje.Text = "";
+        }
+
+        privado void btnmensaje_Click (remitente del objeto, EventArgs e)
+        {
+            lbmensaje.Text = textboxmensaje.Text + "es el mensaje";
+
+        }
+    }
+}
+
+ventanas de forma 3
+
+usando el sistema;
+Utilizando System.Collections.Generic;
+Utilizando System.ComponentModel;
+Utilizando System.Data;
+Utilizando Sistema.Dibujo;
+Utilizando System.Linq;
+Utilizando System.Text;
+Utilizando System.Threading.Tasks;
+Utilizando System.Windows.Forms;
+
+espacio de nombres progra16
+{
+    Clase parcial pública Form3: Forma
+    {
+        Formulario público3 ()
+        {
+            InitializeComponent ();
+        }
+
+        vo3 privado Form3_Load (remitente del objeto, EventArgs e)
+        {
+            lblmesajetext.Text = "";
+        }
+
+        privado void btnMostrar_Click (objeto remitente, EventArgs e)
+        {
+            lblmesajetext.Text = textBoxmensaje0.Text + textBoxmensaje1.Text + textBoxmensaje2.Text + "";
+           
+        }
+    }
+}
+
+ventanas form4
+
+Utilizando System.Data;
+Utilizando Sistema.Dibujo;
+Utilizando System.Linq;
+Utilizando System.Text;
+Utilizando System.Threading.Tasks;
+Utilizando System.Windows.Forms;
+
+espacio de nombres progra16
+{
+    Clase parcial pública Form4: Forma
+    {
+        indice privado;
+        int int intro;
+        Formulario público 4 ()
+        {
+            InitializeComponent ();
+            índice = 0;
+            intro = 0;
+        }
+
+        btncambio_Click privado vacío (objeto remitente, EventArgs e)
+        {
+            indice ++;
+
+            si (indice> 7)
+                índice = 0;
+
+            lblfotos.ImageIndex = indice;
+
+            
+        }
+
+
+        Privado vacío btnmapas_Click (remitente del objeto, EventArgs e)
+        {
+            intro ++;
+            if (intro> 7)
+                intro = 0;
+
+            lblmapas.ImageIndex = intro;
+
+        }
+    }
+}
+
+ventanas form5
+
+usando el sistema;
+Utilizando System.Collections.Generic;
+Utilizando System.ComponentModel;
+Utilizando System.Data;
+Utilizando Sistema.Dibujo;
+Utilizando System.Linq;
+Utilizando System.Text;
+Utilizando System.Threading.Tasks;
+Utilizando System.Windows.Forms;
+
+espacio de nombres progra16
+{
+    Clase parcial pública Form5: Forma
+    {
+        Formulario público5 ()
+        {
+            InitializeComponent ();
+        }
+
+        privado void radioButton1_CheckedChanged (objeto remitente, EventArgs e)
+        {
+            Panel.BackColor = Color.Amarillo;
+        }
+
+        privado void panel1_Paint (objeto remitente, PaintEventArgs e)
+        {
+
+        }
+
+        vo5 privado Form5_Load (remitente del objeto, EventArgs e)
+        {
+            
+        }
+
+        privado void radioButton2_CheckedChanged (objeto remitente, EventArgs e)
+        {
+            Panel.BackColor = Color.Blue;
+        }
+
+        private void radioButton3_CheckedChanged (objeto remitente, EventArgs e)
+        {
+            Panel.BackColor = Color.Red;
+        }
+
+        privado void radioButton4_CheckedChanged (objeto remitente, EventArgs e)
+        {
+            Panel.BackColor = Color.Black;
+        }
+    }
+}
+
+ventanas forman 6
+
+usando el sistema;
+Utilizando System.Collections.Generic;
+Utilizando System.ComponentModel;
+Utilizando System.Data;
+Utilizando Sistema.Dibujo;
+Utilizando System.Linq;
+Utilizando System.Text;
+Utilizando System.Threading.Tasks;
+Utilizando System.Windows.Forms;
+
+espacio de nombres progra16
+{
+    Clase parcial pública Form6: Forma
+    {
+        Formulario público 6 ()
+        {
+            InitializeComponent ();
+        }
+
+        private void cmbdepartamentos_SelectedIndexChanged (objeto remitente, EventArgs e)
+        {
+            
+
+
+        }
+
+        Private void lblDepa_Click (objeto remitente, EventArgs e)
+        {
+            
+        }
+
+        privado void pictureBox1_Click (remitente del objeto, EventArgs e)
+        {
+
+        }
+
+        pictureBox4_Click privado vacío (objeto remitente, EventArgs e)
+        {
+
+        }
+
+        vo6 privado Form6_Load (remitente del objeto, EventArgs e)
+        {
+            
+        }
+
+        Privado btnseleccionar_Click (objeto remitente, EventArgs e)
+        {
+            // pb1.ImageLocation = "C: / Users / jasmi / Downloads /" + listBox1.Text + ".pgn";
+            // pb2.ImageLocation = "C: / Users / jasmi / Downloads /" + cmbmunicipios + ".pgn";
+            pb1.ImageLocation = "C: / Users / jasmi / Pictures / departamentos /" + comboBox1.Text + ".jpg";
+            pb2.ImageLocation = "C: / Users / jasmi / Pictures / departamentos /" + cmbmunicipios.Text + ".jpg";
+        }
+
+        privado void comboBox1_SelectedIndexChanged (objeto remitente, EventArgs e)
+        {
+
+        }
+    }
+}
+
+ventanas forman 7
+
+usando el sistema;
+Utilizando System.Collections.Generic;
+Utilizando System.ComponentModel;
+Utilizando System.Data;
+Utilizando Sistema.Dibujo;
+Utilizando System.Linq;
+Utilizando System.Text;
+Utilizando System.Threading.Tasks;
+Utilizando System.Windows.Forms;
+
+espacio de nombres progra16
+{
+    Clase parcial pública Form7: Forma
+    {
+        Formulario público 7 ()
+        {
+            InitializeComponent ();
+        }
+
+        privado void panel1_Paint (objeto remitente, PaintEventArgs e)
+        {
+
+        }
+
+        privado void button1_Click (objeto remitente, EventArgs e)
+        {
+            pictureBox1.ImageLocation = "C: / Users / jasmi / Pictures / imagenes /" + listBox1.Text + ".jpg";
+        }
+
+        privado Form7_Load (objeto que envía, EventArgs e)
+        {
+
+        }
+    }
+}
+
+ventanas forman 8
+
+usando el sistema;
+Utilizando System.Collections.Generic;
+Utilizando System.ComponentModel;
+Utilizando System.Data;
+Utilizando Sistema.Dibujo;
+Utilizando System.Linq;
+Utilizando System.Text;
+Utilizando System.Threading.Tasks;
+Utilizando System.Windows.Forms;
+
+espacio de nombres progra16
+{
+    clase parcial pública Form8: formulario
+    {
+        Form8 público ()
+        {
+            InitializeComponent ();
+        }
+
+        privado void button1_Click (objeto remitente, EventArgs e)
+        {
+            Form1 miForma1 = nuevo Form1 ();
+
+            miForma1.ShowDialog ();
+
+
+        }
+
+        privado void button2_Click (remitente del objeto, EventArgs e)
+        {
+            Form2 miForma2 = nuevo Form2 ();
+
+            miForma2.ShowDialog ();
+        }
+
+        privado void button3_Click (objeto remitente, EventArgs e)
+        {
+            Form3 miForma3 = nuevo Form3 ();
+
+            miForma3.ShowDialog ();
+        }
+    }
+    
+    formas de ventanas 9
+    
+    usando el sistema;
+Utilizando System.Collections.Generic;
+Utilizando System.ComponentModel;
+Utilizando System.Data;
+Utilizando Sistema.Dibujo;
+Utilizando System.Linq;
+Utilizando System.Text;
+Utilizando System.Threading.Tasks;
+Utilizando System.Windows.Forms;
+
+espacio de nombres progra16
+{
+    clase parcial pública Form9: formulario
+    {
+        Formulario público9 ()
+        {
+            InitializeComponent ();
+        }
+
+        privado void button1_Click (objeto remitente, EventArgs e)
+        {
+
+        }
+
+        private void button1_MouseEnter (objeto remitente, EventArgs e)
+        {
+            button1.BackColor = Color.Blue;
+        }
+
+        private void button1_MouseLeave (objeto remitente, EventArgs e)
+        {
+            button1.BackColor = Color.Silver;
+        }
+
+        private void button2_MouseEnter (objeto remitente, EventArgs e)
+        {
+            button2.BackColor = Color.Yellow;
+        }
+
+        privado void button2_MouseLeave (objeto remitente, EventArgs e)
+        {
+            button2.BackColor = Color.Brown;
+        }
+    }
+}
+}
+
+ventanas forman 10
+
+usando el sistema;
+Utilizando System.Collections.Generic;
+Utilizando System.ComponentModel;
+Utilizando System.Data;
+Utilizando Sistema.Dibujo;
+Utilizando System.Linq;
+Utilizando System.Text;
+Utilizando System.Threading.Tasks;
+Utilizando System.Windows.Forms;
+
+espacio de nombres progra16
+{
+    Clase parcial pública Form10: Forma
+    {
+
+        Form1 logeo;
+        Formulario público10 ()
+        {
+            InitializeComponent ();
+        }
+
+        privado void button1_Click (objeto remitente, EventArgs e)
+        {
+            if ((Textbox1.Text! = "") && (Textbox2.Text! = ""))
+                    {
+                if ((Textbox1.Text == "ADMIN") && (Textbox2.Text == "PASS"))
+                    {
+                    logeo = nuevo Form1 ();
+                    logeo.Show ();
+                    esto.Ocultar ();
+                }
+            }
+        }
+
+        privado void label1_Click (objeto remitente, EventArgs e)
+        {
+
+        }
+
+        privado void button2_Click (remitente del objeto, EventArgs e)
+        {
+            
+        }
+
+        vo10 privado Form10_Load (remitente del objeto, EventArgs e)
+        {
+            
+        }
+    }
+}
+Formulario de Windows 11
+
+usando el sistema;
+Utilizando System.Collections.Generic;
+Utilizando System.ComponentModel;
+Utilizando System.Data;
+Utilizando Sistema.Dibujo;
+Utilizando System.Linq;
+Utilizando System.Text;
+Utilizando System.Threading.Tasks;
+Utilizando System.Windows.Forms;
+
+espacio de nombres progra16
+{
+    Clase parcial pública Form11: Forma
+    {
+        Formulario público 11 ()
+        {
+            InitializeComponent ();
+        }
+
+       
+        privado void button2_Click_1 (objeto remitente, EventArgs e)
+        {
+            listBox1.Items.Add (textBox2.Text);
+            textBox2.Text = string.Empty;
+        }
+
+        privado void button3_Click (objeto remitente, EventArgs e)
+        {
+            int indice = listBox1.SelectedIndex;
+            si (indice! = -1)
+            {
+                listBox1.Items.RemoveAt (indice);
+            }
+
+        }
+
+        private void listBox1_SelectedIndexChanged (objeto remitente, EventArgs e)
+        {
+            if (listBox1.SelectedIndex! = -1)
+                label2.Text = (string) listBox1.Items [listBox1.SelectedIndex];
+        }
+
+        vacío Form11_Load (objeto que envía, EventArgs e)
+        {
+            listBox1.Items.Add ("koenisgeg");
+            listBox1.Items.Add ("Lamborgini");
+        }
+    }
+}
+
+ventanas forman 12
+
+usando el sistema;
+Utilizando System.Collections.Generic;
+Utilizando System.ComponentModel;
+Utilizando System.Data;
+Utilizando Sistema.Dibujo;
+Utilizando System.Linq;
+Utilizando System.Text;
+Utilizando System.Threading.Tasks;
+Utilizando System.Windows.Forms;
+
+espacio de nombres progra16
+{
+    clase parcial pública Form12: Forma
+    {
+        Formulario público 12 ()
+        {
+            InitializeComponent ();
+        }
+
+        
+
+        privado void comboBox1_SelectedIndexChanged (objeto remitente, EventArgs e)
+        {
+
+        }
+
+        
+        vo12 privado Form12_Load (remitente del objeto, EventArgs e)
+        {
+
+        }
+
+        privado void button1_Click (objeto remitente, EventArgs e)
+        {
+            cadena nombre
+            nombre = textBox9.Text;
+            nombre = textBox10.Text;
+            nombre = textBox11.Text;
+            nombre = textBox12.Text;
+            si (nombre == "")
+            {
+                MessageBox.Show ("Mensaje vacio valido");
+
+            
+            } 
+            más
+            {
+                MessageBox.Show ("bienvenido" + nombre);
+            }
+
+        }
+       
+            
+
+        }
+    }
+
+ventanas forman 13
+
+usando el sistema;
+Utilizando System.Collections.Generic;
+Utilizando System.ComponentModel;
+Utilizando System.Data;
+Utilizando Sistema.Dibujo;
+Utilizando System.Linq;
+Utilizando System.Text;
+Utilizando System.Threading.Tasks;
+Utilizando System.Windows.Forms;
+
+espacio de nombres Deber
+{
+    Clase parcial pública Form1: Forma
+    {
+        Form1 público ()
+        {
+            InitializeComponent ();
+        }
+
+        vo1 privado Form1_Load (remitente del objeto, EventArgs e)
+        {
+            // adicionar elementos 
+            lstFrutas.Items.Add ("Banana");
+            lstFrutas.Items.Add ("Durazno");
+
+        }
+
+        privado void btnadicionar_Click (objeto remitente, EventArgs e)
+        {
+            lstFrutas.Items.Add (txtFruta.Text);
+            txtFruta.Text = string.Empty;
+        }
+
+        privado void label1_Click (objeto remitente, EventArgs e)
+        {
+
+        }
+
+        privado void lstFrutas_SelectedIndexChanged (objeto remitente, EventArgs e)
+        {
+            if (lstFrutas.SelectedIndex! = - 1) 
+            lblFruta.Text = (string) lstFrutas.Items [lstFrutas.SelectedIndex];
+        }
+
+        privado void button1_Click (objeto remitente, EventArgs e)
+        {
+            indice = lstFrutas.SelectedIndex;
+            si (indice! = -1)
+            {
+                lstFrutas.Items.RemoveAt (indice);
+            }
+        }
+
+        privado void txtFruta_TextChanged (remitente del objeto, EventArgs e)
+        {
+
+        }
+    }
+}
+
+
+ventanas de 14 con clase
+
+usando el sistema;
+Utilizando System.Collections.Generic;
+Utilizando System.ComponentModel;
+Utilizando System.Data;
+Utilizando Sistema.Dibujo;
+Utilizando System.Linq;
+Utilizando System.Text;
+Utilizando System.Threading.Tasks;
+Utilizando System.Windows.Forms;
+
+espacio de nombres Deber
+{
+    Clase parcial pública Form5: Forma
+    {
+        // Instancia de la clase Leer
+        leer l = nueva leer ();
+        // Alamcena la ruta del archivo .txt
+        cadena pública ARCHIVO = "";
+
+        Formulario público5 ()
+        {
+            InitializeComponent ();
+        }
+
+        vo5 privado Form5_Load (remitente del objeto, EventArgs e)
+        {
+
+        }
+
+        // Abre el archivo abierto Diálogo y captura de la ruta del bloque de notas
+        public void cargarArchivo ()
+        {
+            tratar
+            {
+                this.openFileDialog1.ShowDialog ();
+
+                if (! string.IsNullOrEmpty (this.openFileDialog1.FileName))
+                {
+                    ARCHIVO = this.openFileDialog1.FileName;
+                    l.lecturaArchivo (dataGridView1, ',', ARCHIVO);
+
+                }
+            }
+            atrapar (excepción ex)
+            {
+                MessageBox.Show ("Error:" + ex.ToString ());
+            }
+        }
+
+        privado void button1_Click (objeto remitente, EventArgs e)
+        {
+            cargarArchivo ();
+        }
+
+        privado void dataGridView1_CellContentClick (objeto remitente, DataGridViewCellEventArgs e)
+        {
+
+        }
+    }
+}
+ 
+ 
+ la clase
+ 
+ usando el sistema;
+Utilizando System.Collections.Generic;
+Utilizando System.Linq;
+Utilizando System.Text;
+Utilizando System.Threading.Tasks;
+Utilizando System.IO;
+Utilizando System.Windows.Forms;
+
+espacio de nombres Deber
+{
+    lectura de clase
+    {
+
+        // Leer el archivo y la llama al metodo agregar FilaDatagridview para que por cada línea del bloque agregue una linea en el datagridview '
+        Public void lecturaArchivo (tabla DataGridView, carácter caracter, cadena ruta)
+        {
+            StreamReader objReader = new StreamReader (ruta);
+            string sLine = "";
+            int fila = 0;
+            tabla.Rows.Clear ();
+            tabla.AllowUserToAddRows = false;
+
+            hacer
+            {
+                sLine = objReader.ReadLine ();
+                if ((sLine! = null))
+                {
+                    si (fila == 0)
+                    {
+                        tabla.ColumnCount = sLine.Split (caracter) .Length;
+                        nombrarTitulo (tabla, sLine.Split (caracter));
+                        fila + = 1;
+                    }
+                    más
+                    {
+                        agregarFilaDatagridview (tabla, sLine, caracter);
+                        fila + = 1;
+                    }
+
+                }
+            }
+
+            while (! (sLine == null));
+            objReader.Close ();
+        }
+
+        privado void agregarFilaDatagridview (tabla DataGridView, string sLine, caracter caracter)
+        {
+            lanzar nuevo NotImplementedException ();
+        }
+
+        // Agregar el HeaderText al datagridview (SON LOS TITULOS) '
+        público static void nombrarTitulo (tabla DataGridView, cadena [] títulos)
+        {
+            int x = 0;
+            para (x = 0; x <= tabla.ColumnCount - 1; x ++)
+            {
+                tabla.Columns [x] .HeaderText = titulos [x];
+            }
+        }
+
+        // Agrega una fila por cada línea de Bloc de notas: D '
+        public static void agregarFilaDatagridview (tabla DataGridView, línea de cadena, carácter caracter, int fila)
+        {
+            string [] arreglo = linea.Split (caracter);
+            tabla.rows.Add (arreglo);
+        }
+
+    }
+}
+
+ventanas de 15
+
+usando el sistema;
+Utilizando System.Collections.Generic;
+Utilizando System.ComponentModel;
+Utilizando System.Data;
+Utilizando Sistema.Dibujo;
+Utilizando System.Linq;
+Utilizando System.Text;
+Utilizando System.Threading.Tasks;
+Utilizando System.Windows.Forms;
+
+espacio de nombres Deber
+{
+    Clase parcial pública Form4: Forma
+    {
+        Formulario público 4 ()
+        {
+            InitializeComponent ();
+        }
+
+        persona persona1 = nueva persona ();
+        Lista <persona> lista = nueva Lista <persona> ();
+
+        Vacío público guardarpersona ()
+        {
+            persona persona1 = nueva persona (txt_nombre.Text, txt_apellido.Text, int.Parse (txt_edad.Text));
+            lista.Add (persona1);
+
+            dataGridView2.DataSource = lista;
+            dataGridView2.DataSource = null;
+        }
+
+        public void modificar (string nombre)
+        {
+            foreach (var persona en lista)
+            {
+                si (persona.Nombre == nombre)
+                {
+                    persona.Nombre = txt_nombre.Text;
+                    persona.Apellido = txt_apellido.Text;
+                    persona.Edad = int.Parse (txt_edad.Text);
+                } 
+                
+            }
+
+        }
+
+        vo4 privado vacío Form4_Load (remitente del objeto, EventArgs e)
+        {
+
+        }
+
+        void privado btnsalir_Click (objeto remitente, EventArgs e)
+        {
+            Cerrar ();
+        }
+
+        privado void btnguardar_Click (objeto remitente, EventArgs e)
+        {
+            guardarpersona ();
+        }
+
+        privado void btn_Modificar_Click (objeto remitente, EventArgs e)
+        {
+            modificar (txt_nomamodificar.Text);
+        }
+    }
+}
+
+la clase
+
+usando el sistema;
+Utilizando System.Collections.Generic;
+Utilizando System.Linq;
+Utilizando System.Text;
+Utilizando System.Threading.Tasks;
+
+espacio de nombres Deber
+{
+    persona de clase
+    {
+        cadena privada nombre;
+        cuerda privada apellido;
+        int int privado;
+        persona pública ()
+        {
+            nombre = string.Empty;
+            apellido = string.Empty;
+            edad = 0;
+        }
+
+        persona pública (string nom, string ap, int ed)
+        {
+            nombre = nom;
+            apellido = ap;
+            edad = ed;
+        }
+
+
+        Nombre público
+        {
+            obtener {volver nombre; }
+            establecer {nombre = valor; }
+        }
+
+        apellido
+        {
+            obtener {return apellido; }
+            establecer {apellido = valor; }
+        }
+
+        público int edad
+        {
+            obtener {return edad; }
+            conjunto {edad = valor; }
+        }
+
+    }
+}
